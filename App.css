@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bckgrnd_img.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg {
+    background-color: rgb(244, 244, 244);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 100px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    font-family: arial, sans-serif;
+    font-size: 55px;
+    color: #333333;
+    font-style: normal;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+.special-style {
+    font-family: arial, sans-serif;
+    font-size: 60px;
+    color: #d8accd;
+    font-style: normal;
+    font-style: oblique;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    text-shadow: 0.1px 1px 1px #333333;
+
+
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h3 {
+    font-size: 15px;
+    color: #333333;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-size: 15px;
+    color: #333333;
+    font-style: normal;
+    padding: 5px;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+}
+.ticket-section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #edebe7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    padding: 30px 50px;
+    
+  }
+
+  .ticket-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    align-self: center;
+    color: #d8accd ;
+  }
+  
+  .price {
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .result {
+    font-weight: 400;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .tickett-info, .merchandise-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;;
+    margin: 10px;
+    padding: 30px;
+    background-color: #edebe7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    height: 350px;
+  }
+
+  .title2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-self: center;
+    color: #d8accd ;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    text-shadow: 0.1px 1px 1px #333333;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    align-self: center;
+    color: #333333 ;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  input {
+    margin: 0 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #dcd8d8;
+    width: 150px;
+  }
+
+  button {
+    margin: 0 10px;
+    width: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #dcd8d8;
+    background-color: #d8accd;
+    color: #333333;
+    font-weight: 700;
+    cursor: pointer;
+    color: #333333;
+  }
+
+  input:focus {
+    outline: none;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center; 
+    gap: 0;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5px;
+  }
+  
